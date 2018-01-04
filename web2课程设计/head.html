@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>河北师范大学数字图书馆_首页</title>
+	<meta charset="UTF-8" />
+	<link rel="stylesheet" type="text/css" href="css/head/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/head/beforeonload.css" />
+	<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+	
+</head>
+<body>
+	<div id="beforeonload" style='background:rgba(255,255,255,0.5);position: fixed;z-index: 800;width: 100%;height: 100%;'>
+		<div id="load">
+			<ul>
+				<li style="color:#339933">■</li>
+				<li style='color:#ffcc33'>■</li>
+				<li style='color:#336699'>■</li>
+			</ul>
+		</div>
+	</div>
+	<script type="text/javascript" src='js/beforeonload.js'></script>
+	<div id="top"><p>T</p></div>
+	<div id="header">
+		<div class="topbar">
+			<div class="logo">
+				<img src="images/home/logo.png" alt="河北师范大学数字图书馆首页"/>
+			</div>
+			<div class="lan">
+				<p class="lan1">语言</p>
+				<a href="javascript:void(0)" class="lan_ch">中</a>
+				<a href="javascript:void(0)" class="lan_en">英</a>
+				<a class="weibo" href="http://weibo.com/hbsfdxtsg?refer_flag=1001030101_" target="_blank" ><img src="images/home/icon/weibo.png" alt="河北师范大学图书馆官方微博"/></a>
+			</div>
+		</div>
+		<div class="banner">
+			<div class="search">
+				<div class="choice">
+					<ul class="choice_content_ou">
+						<li class="base"><a href='javascript:void(0)'>搜索依据</a>
+							<ul class="choice_content">
+								<li class="c1"><a href='javascript:void(0)'>标题</a></li>
+								<li class="c2"><a href='javascript:void(0)'>作者</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<p class="search-wrong" style='display:none'>内容不能为空</p>
+				<div class="search_bottom">
+					<input id='search-content' class="content" type="text" maxlength="20"/>
+					<a id="search-enter" href="#"><img src="images/home/icon/search.png" /></a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="nav">
+		<div class="navv">
+			<ul>
+				<li><a href="#">所有分类</a></li>
+				<li><a href="#">专题系列</a></li>
+				<li><a href="#about">本馆概况</a></li>
+				<li><a href="#">图书馆APP</a></li>
+			</ul>
+		</div>
+		<div class="botton">
+			<a href="#"><input type="image" src="images/home/icon/user.png" alt="个人中心" /></a>
+			<a href="#"><input type="image" src="images/home/icon/home.png" alt="主页" /></a>
+			<a href="#"><input type="image" src="images/home/icon/collection.png" alt="收藏" /></a>
+			<p>1</p>
+		</div>
+	</div>
+	<div id="content">
+		<div class="hote">
+			<h1>Hot</h1>
+			<div id="books">
+				<div class="box">
+					<a href="http://product.dangdang.com/25060501.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/bailuyuan.png"></img>
+							<div class="des">
+								<p class="name">白鹿原</p>
+								<p class="writer">陈忠实</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://product.dangdang.com/24242450.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/fanghua.png"></img>
+							<div class="des">
+								<p class="name">芳华</p>
+								<p class="writer">严歌苓</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://product.dangdang.com/25172573.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/himitsu.jpg"></img>
+							<div class="des">
+								<p class="name">秘密</p>
+								<p class="writer">东野圭吾</p>
+							</div>
+						</div>
+					</a>
+				</div>
+
+				<div class="box" style="display:none">
+					<a href="http://product.dangdang.com/25137790.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/huozhe.png"></img>
+							<div class="des">
+								<p class="name">活着</p>
+								<p class="writer">余华</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://product.dangdang.com/23761145.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/ningenshikkaku.png"></img>
+							<div class="des">
+								<p class="name">人间失格</p>
+								<p class="writer">太宰治</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://product.dangdang.com/23464478.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/jieyouzahuodian.png"></img>
+							<div class="des">
+								<p class="name">解忧杂货店</p>
+								<p class="writer">东野圭吾</p>
+							</div>
+						</div>
+					</a>	
+				</div>
+
+				<div class="box" style="display:none">
+					<a href="http://product.dangdang.com/23822200.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/tiancaizaizuofengzizaiyou.png"></img>
+							<div class="des">
+								<p class="name">天才在左疯子在右</p>
+								<p class="writer">高铭</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://product.dangdang.com/25090502.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/pingfandeshijie.png"></img>
+							<div class="des">
+								<p class="name">平凡的世界</p>
+								<p class="writer">路遥</p>
+							</div>
+						</div>
+					</a>
+					<a href="http://product.dangdang.com/24198400.html">
+						<div class="book">
+							<img class="cover" src="images/home/books/woxihuanshengmingbenlaideyangzi.png"></img>
+							<div class="des">
+								<p class="name">我喜欢生命本来的样子</p>
+								<p class="writer">周国平</p>
+							</div>
+						</div>
+					</a>
+				</div>
+			</div>
+			<div class="arrow">
+				<a href='javascript:void(0)' class='al'>&lt;</a>
+				<a href='javascript:void(0)' class='ar'>&gt;</a>
+			</div>
+		</div>
+		<div class="about">
+			<div class="title">
+				<div class="main">
+					<h1>About</h1>
+				</div>
+			</div>	
+			<embed class="video" src="http://player.youku.com/player.php/sid/XODQyNzYwNzY4/v.swf" type="application/x-shockwave-flash"></embed>
+			<div class="intro">
+				<p>河北师范大学图书馆1996年6月由原河北师范大学图书馆、河北师范学院图书馆、河北教育学院图书馆、河北职业技术师范学院图书馆合并而成。</p>
+				<p>目前图书馆总建筑面积4.5万平方米，阅览座位近5000席，馆藏文献总量300余万册，是一所以师范教育为主的综合性现代化大学图书馆。</p>
+			</div>
+		</div>
+		<div class="board">
+			<div class="news">
+				<h1 class='boardh1'>Board</h1>
+				<div class="title">
+					<p>通知通告</p>
+					<a href="list.html">more&gt;</a>
+				</div>
+				<ul>
+					<li><a href="content.html">图书馆五一劳动节开馆安排</a></li><span>04/24</span>
+					<li><a href="content.html">“技术杯，闯关有奖”读书月系列活动</li></a><span>04/10</span>
+					<li><a href="content.html">图书馆校运会期间开馆通知</a></li><span>04/10</span>
+					<li><a href="content.html">图书馆2017年读书月活动安排</a></li><span>04/01</span>
+					<li><a href="content.html">图书馆清明节开馆安排</a></li><span>03/28</span>
+					<li><a href="content.html">图书馆2017年寒假工作安排</a></li><span>01/10</span>
+					<li><a href="content.html">图书馆2017年元旦工作安排</a></li><span>12/27</span>
+				</ul>
+			</div>
+			<div class="act">
+				<div class="title">
+					<p>资源动态</p>
+					<a href="list.html">more&gt;</a>
+				</div>
+				<ul>
+					<li><a href="content.html">《中国近代报刊全文数据库》开通试用</a></li><span>05/02</span>
+					<li><a href="content.html">PE（欧几里德项目）电子期刊数据库...</a></li><span>04/19</span>
+					<li><a href="content.html">ACM(美国计算机协会)数据库开通</a></li><span>04/19</span>
+					<li><a href="content.html">列国志数据库</a></li><span>04/18</span>
+					<li><a href="content.html">京津冀协同发展数据库</a></li><span>04/18</span>
+					<li><a href="content.html">2017-4-28学科中心上架新书信息</a></li><span>04/20</span>
+					<li><a href="content.html">2017-4-20上架新书信息</a></li><span>04/18</span>
+				</ul>
+			</div>
+			<a href="list.html"><h1 class="more">More</h1></a>
+		</div>
+	</div>
+	<div id="footer">
+		<div class="top">
+			<div class="contact">
+				<h1>联系方式</h1>
+				<div class="phone">
+					<img src="images/home/icon/phone.png" />
+					<p>0311-80786330</p>
+				</div>
+				<div class="add">
+					<img src="images/home/icon/add.png" />
+					<p>河北省石家庄市南二环东路20号</p>
+				</div>
+			</div>
+			<div class="link">
+				<h1>相关链接</h1>
+				<div class="link1">
+					<a href="http://www.hebtu.edu.cn/" target="_blank">河北师范大学</a>
+				</div>
+				<div class="link2">
+					<a href="http://www.hebtu.edu.cn/" target="_blank">河北师范大学图书馆</a>
+				</div>
+			</div>
+			<div class="botton">
+				<a class="que" href="#"><img src="images/home/icon/que.png"></a>
+				<a class="feedback" href="#"><img src="images/home/icon/feedback.png"></a>
+			</div>
+		</div>
+		<div class="law">
+			<img src="images/home/line.png" />
+			<p>河北师范大学&nbsp;Copyright&nbsp;2013&nbsp;Hebei&nbsp;Normal&nbsp;University&nbsp;Library.&nbsp;All&nbsp;Right&nbsp;Reserved</p>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="js/head.js"></script>
+</html>
